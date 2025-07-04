@@ -33,5 +33,43 @@ This project performs sentiment analysis on restaurant reviews using Natural Lan
   - `Liked` (binary label)
 
 ---
+# 📧 Spam Detection – Deep Learning (NLP Case Study)
+
+This project detects whether a given SMS message is **Spam** or **Not Spam (Ham)** using Deep Learning and NLP.  
+It applies preprocessing, tokenization, and an LSTM-based model to classify messages.
+
+---
+
+## 🧠 Project Workflow
+
+### 1. 📥 Importing Data & Libraries
+- Pandas, NumPy
+- NLTK for text preprocessing
+- TensorFlow / Keras for DL model
+- Matplotlib / Seaborn for visualization
+
+---
+
+### 2. 🧹 Data Cleaning & Preprocessing
+Steps applied on the text:
+- Lowercasing
+- Removing punctuation & numbers
+- Removing stopwords
+- Tokenization
+- Padding sequences
+
+---
+
+### 3. 🗃️ Dataset Info
+- **Source**: [Kaggle – SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- **Size**: 5572 messages
+- **Classes**:
+  - `ham` → Not Spam
+  - `spam` → Spam
+
+---
+
+
+
 
 
